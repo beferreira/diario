@@ -1,0 +1,51 @@
+body{
+  background-color: gray;
+}
+
+.cadastro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1{
+      font: 600 30px 'Arial';
+      color: #FFF;
+  }
+
+  .interativo{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      background-color: lightgray;
+      padding: 90px;
+      border-radius: 50px;
+  }   
+
+  input{
+      width: 300px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font: 400 15px 'Arial';
+  }
+
+  button{
+      width: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      border-radius: 20px;
+      font: 400 20px 'Arial';
+      cursor: pointer;
+  }
+
+  a{
+      text-decoration: none;
+      font: 500 16px 'Arial';
+      color: #0f9fff;
+  }
+
+}
